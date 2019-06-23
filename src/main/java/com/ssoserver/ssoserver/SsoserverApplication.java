@@ -1,13 +1,13 @@
-package com.sso.sso;
+package com.ssoserver.ssoserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SsoApplication {
+public class SsoserverApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SsoApplication.class, args);
+		SpringApplication.run(SsoserverApplication.class, args);
 	}
 
 }
