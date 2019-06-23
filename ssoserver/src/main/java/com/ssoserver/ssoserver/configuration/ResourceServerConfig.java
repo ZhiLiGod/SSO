@@ -14,7 +14,7 @@ public class ResourceServerConfig extends WebSecurityConfigurerAdapter {
 
   private static final String USER = "ZHI";
   private static final String PWD = "*ZHI";
-  private static final String ROLE = "ADIMN";
+  private static final String ROLE = "USER";
 
   @Autowired
   private AuthenticationManager authenticationManager;
